@@ -31,7 +31,7 @@ const AboutPage = () => {
             <div className="col-lg-6">
               <div className="about-img">
                 <img
-                  src="logo"
+                  src={logo}
                   alt=""
                   className="img-fluid rounded img-about"
                 />
