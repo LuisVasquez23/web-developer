@@ -1,5 +1,5 @@
 import "./AboutPage.css";
-import { logo } from "../../assets/img/profile.jpeg";
+import logo from "../../assets/img/profile.jpeg";
 const AboutPage = () => {
   return (
     <>
