@@ -1,0 +1,50 @@
+
+.navbar{
+    width: 100%;
+    background: var(--dark-color);
+    padding: 2px 20px;
+    top: 30px;
+}
+
+.navbar-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn-icon{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-title{
+    font-size: 1.3rem;
+    color: var(--yellow-color);
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.btn-icon span{
+    font-weight: bold;
+    transform: rotateX('10px');
+    text-align: center;
+    font-size: .6rem;
+    display: none;
+    transition: all .3s ease-in-out;
+}
+
+.btn-icon:hover span{
+    display: block;
+}
+
