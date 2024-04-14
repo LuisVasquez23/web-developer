@@ -1,5 +1,5 @@
 import "./AboutPage.css";
-
+import { logo } from "../../assets/img/profile.jpeg";
 const AboutPage = () => {
   return (
     <>
@@ -31,7 +31,7 @@ const AboutPage = () => {
             <div className="col-lg-6">
               <div className="about-img">
                 <img
-                  src="/img/profile.jpeg"
+                  src="logo"
                   alt=""
                   className="img-fluid rounded img-about"
                 />
