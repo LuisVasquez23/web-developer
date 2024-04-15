@@ -8,7 +8,7 @@ const AboutPage = () => {
         <div className="about-container">
           <div className="row">
             <div className="col-lg-6">
-              <div className="about-description">
+              <div className="about-description skill w-100">
                 <p>
                   Hi! 🙋‍♂️ {"I'am"}
                   <i className="bold"> Luis Enrique Vasquez Aquila</i>

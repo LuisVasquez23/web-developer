@@ -1,6 +1,6 @@
 
 .about-description p , .about-description i{ 
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: auto;
 }
 
@@ -9,11 +9,19 @@
     text-align: justify;
 }
 
+.img-about{
+    width: 80%;
+}
+
 
 @media screen and (max-width: 640px) {
     
     .about-description p , .about-description i{ 
         font-size: 1.2rem;
         width: auto;
+    }
+
+    .img-about{
+        width: 100%;
     }
 }
