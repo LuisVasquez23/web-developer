@@ -1,3 +1,5 @@
+import "./ExperiencePage.css";
+
 const ExperiencePage = () => {
   return (
     <>
@@ -10,34 +12,64 @@ const ExperiencePage = () => {
               <i className="bold">Creativa Consultores S.A.</i> -
               <span className="bold">Aug 2022 - Feb 2024</span>
             </div>
-            <div className="skill-description">
+            <div className="skill-description pt-3">
               <p>
-                ✅ Desarrollo y mantenimiento de funcionalidades en ASP .NET C#
-                MVC.
+                ✅ Development and maintenance of functionalities for a web
+                system using ASP .NET C# MVC.
+              </p>
+              <p>✅ Bug fixing and integration of new functionalities.</p>
+              <p>
+                ✅ Adapting functionalities for new modules according to client
+                requirements.
               </p>
               <p>
-                ✅ Solución de bugs e integración de nuevas funcionalidades.
-              </p>
-              <p>
-                ✅ Adaptación de funcionalidades para nuevos módulos según
-                requisitos del cliente.
-              </p>
-              <p>
-                ✅ Diseño y desarrollo de interfaces de usuario con HTML, CSS y
+                ✅ Designing and developing user interfaces using HTML, CSS, and
                 JavaScript.
               </p>
               <p>
-                ✅ Creación y optimización de procedimientos almacenados en SQL
-                Server.
+                ✅ Implementing dynamic interfaces using jQuery to display
+                information interactively.
+              </p>
+              <p>✅ Creating and optimizing stored procedures in SQL Server.</p>
+              <p>
+                ✅ Efficient code management and versioning using GitLab under
+                Scrum methodology.
               </p>
               <p>
-                ✅ Migración de funcionalidades de Visual Basic a ASP .NET C#.
+                ✅ Experience in reporting using ClosedXML and RDLC for
+                generating reports.
+              </p>
+            </div>
+          </div>
+          <div className="skill">
+            <div className="skill-title">.NET Back-end developer</div>
+            <div className="skill-company">
+              <i className="bold">Integra International Services</i> -
+              <span className="bold">May 2024 - Present</span>
+            </div>
+            <div className="skill-description pt-3">
+              <p>
+                ✅ Development and maintenance of functionalities for a web
+                system using ASP .NET C# WebApi.
+              </p>
+              <p>✅ Bug fixing and integration of new functionalities.</p>
+              <p>
+                ✅ Adapting functionalities for new modules according to client
+                requirements.
+              </p>
+              <p>✅ Integration of SOAP web services with .NET.</p>
+              <p>
+                ✅ Creating and managing background jobs using Hangfire for
+                efficient task processing.
               </p>
               <p>
-                ✅ Gestión y versionado del código con GitLab y metodología
-                Scrum.
+                ✅ Implementing message-based communication and task queuing
+                with RabbitMQ to enhance system scalability and reliability.
               </p>
-              <p>✅ Experiencia en reportería con ClosedXML y RDLC.</p>
+              <p>
+                ✅ Efficient code management and versioning using Git under
+                Scrum methodology.
+              </p>
             </div>
           </div>
         </div>
